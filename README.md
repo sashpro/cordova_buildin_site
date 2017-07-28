@@ -2,6 +2,7 @@
 
 ## Add Android platforms 
 ```
+npm install -g cordova@6.0.0
 cordova platform add android
 ```
 
