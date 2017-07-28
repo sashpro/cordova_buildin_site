@@ -9,4 +9,4 @@ cordova platform add android
 ```
 cordova build android --release
 ```
-It's important to sign the apk. https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#signing-an-app
+It's important to sign up the apk. https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#signing-an-app
