@@ -2,7 +2,7 @@
     "cordova-plugin-whitelist": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
+            "id": "cordova-plugin-whitelist@^1.3.2"
         },
         "is_top_level": true,
         "variables": {}
@@ -10,7 +10,7 @@
     "cordova-plugin-inappbrowser": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-inappbrowser@1.7.1"
+            "id": "cordova-plugin-inappbrowser@^1.7.1"
         },
         "is_top_level": true,
         "variables": {}
@@ -18,7 +18,7 @@
     "cordova-plugin-certificates": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-certificates"
+            "id": "cordova-plugin-certificates@^0.6.4"
         },
         "is_top_level": true,
         "variables": {}

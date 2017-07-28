@@ -5,6 +5,12 @@
 npm install -g cordova@6.0.0
 cordova platform add android
 ```
+## Plugins 
+```
+cordova-plugin-certificates 0.6.4 "Certificate Plugin"
+cordova-plugin-inappbrowser 1.7.1 "InAppBrowser"
+cordova-plugin-whitelist 1.3.2 "Whitelist"
+```
 
 ## Build Android apk
 ```
