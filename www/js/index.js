@@ -28,6 +28,8 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        cordova.plugins.certificates.trustUnsecureCerts(true);
+        window.open = cordova.InAppBrowser.open;
     },
 
     // Update DOM on a Received Event

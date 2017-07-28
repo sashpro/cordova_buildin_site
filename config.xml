@@ -15,7 +15,10 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://cryptosite.quantumobile.co/*" />
+    <allow-navigation href="https://argussearch.quantumobile.co/*" />
+    <allow-navigation href="https://www.paypal.com/*" />
+    <allow-navigation href="https://www.sandbox.paypal.com/*" />
+    <access origin="https://www.sandbox.paypal.com/*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
@@ -25,5 +28,7 @@
     </platform>
     <engine name="android" spec="^6.2.3" />
     <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-certificates" spec="^0.6.4" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
 </widget>

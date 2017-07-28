@@ -1,0 +1,57 @@
+{
+  "_from": "cordova-plugin-certificates",
+  "_id": "cordova-plugin-certificates@0.6.4",
+  "_inBundle": false,
+  "_integrity": "sha1-gFEzm+AMaRyCQzjY+ghv9fa+K7k=",
+  "_location": "/cordova-plugin-certificates",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-certificates",
+    "name": "cordova-plugin-certificates",
+    "escapedName": "cordova-plugin-certificates",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-certificates/-/cordova-plugin-certificates-0.6.4.tgz",
+  "_shasum": "8051339be00c691c824338d8fa086ff5f6be2bb9",
+  "_spec": "cordova-plugin-certificates",
+  "_where": "/home/sashpro/PycharmProjects/cordova/hello/node_modules",
+  "author": {
+    "name": "Martin Reinhardt"
+  },
+  "bugs": {
+    "url": "https://github.com/hypery2k/cordova-certificate-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-certificates",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Certificate Plugin",
+  "homepage": "https://github.com/hypery2k/cordova-certificate-plugin#readme",
+  "keywords": [
+    "cordova",
+    "certificates",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-certificates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypery2k/cordova-certificate-plugin.git"
+  },
+  "version": "0.6.4"
+}

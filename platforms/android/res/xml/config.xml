@@ -4,6 +4,12 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="CertificatesPlugin">
+        <param name="android-package" value="de.martinreinhardt.cordova.plugins.CertificatesPlugin" />
+    </feature>
     <name>CryptoSite</name>
     <description>
         Currency exchange
@@ -19,7 +25,10 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://cryptosite.quantumobile.co/*" />
+    <allow-navigation href="https://argussearch.quantumobile.co/*" />
+    <allow-navigation href="https://www.paypal.com/*" />
+    <allow-navigation href="https://www.sandbox.paypal.com/*" />
+    <access origin="https://www.sandbox.paypal.com/*" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

@@ -49,6 +49,15 @@
     <true/>
     <key>NSAppTransportSecurity</key>
     <dict>
+      <key>NSExceptionDomains</key>
+      <dict>
+        <key>argussearch.quantumobile.co</key>
+        <dict/>
+        <key>www.paypal.com</key>
+        <dict/>
+        <key>www.sandbox.paypal.com</key>
+        <dict/>
+      </dict>
       <key>NSAllowsArbitraryLoads</key>
       <true/>
     </dict>
